@@ -7,6 +7,7 @@ import math
 df = pd.read_csv('income.csv')
 
 income = df["Income"]
+density = df['Density']
 lat_cart = df["Latitude"]
 lon_cart = df["Longitude"]
 
@@ -19,6 +20,7 @@ length_cart = len(lat_cart)
 
 saved_cartier = 0
 income_list = []
+density_list = []
 # Se parcurg magazinele
 for i in range(length_shop):
     min = 99999999999
@@ -30,7 +32,14 @@ for i in range(length_shop):
             min = dist
             saved_cartier = j
     income_list.append(income[saved_cartier])
+    density_list.append(density[saved_cartier])
+
+
+
+
+
 
 df['Income'] = income_list
+df['Density'] = density_list
 
 df.to_csv('datasetaux.csv', index=False)
