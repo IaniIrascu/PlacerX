@@ -2,73 +2,45 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from sklearn.cluster import KMeans
 from geopy.geocoders import GoogleV3
+from geopy.distance import geodesic
 
 # Load the df
 df = pd.read_csv('dataset.csv')
+df2 = pd.read_csv('district_and_location.csv')
 
-initial_count = sum(1 for entry in df['Name'] if entry == 'bp')
-print(f"Initial count of 'bp': {initial_count}")
+def within_radius(row, center, radius):
+        store_point = (row['Latitude'], row['Longitude'])
+        return geodesic(center, store_point).km <= radius
 
-# Get the indices of all 'bp' entries
-bp_indices = df[df['Name'] == 'bp'].index
+midpoints = []
 
-# Calculate the number of entries to delete (half of the initial count)
-num_to_delete = initial_count // 2
+for lat, long in zip(df2['Latitude'], df2['Longitude']):
+    center = (lat, long)  # Center point coordinates
+    radius = 5  # Radius in kilometers
 
-# Drop the calculated number of 'bp' entries
-df = df.drop(bp_indices[:num_to_delete])
+    stores_within_radius = df[df.apply(within_radius, center=center, radius=radius, axis=1)]
 
-df['Random_Score'] = np.where(df['Name'] == 'Key Food Supermarkets', np.random.randint(-50, 150, len(df)), np.nan)
-df.to_csv("stores.csv", index=False)
+    # Calculate the midpoint coordinates of all stores within the radius
+    coordinates = stores_within_radius[['Latitude', 'Longitude']]
+    if not coordinates.empty:
+        kmeans = KMeans(n_clusters=5, random_state=0).fit(coordinates)
+        cluster_center = kmeans.cluster_centers_[0]
 
-
-plt.scatter(df['Latitude'], df['Longitude'])
-plt.xlabel('Latitude')
-plt.ylabel('Longitude')
-plt.xlim(40.55, 40.9)  # Set the limits for the x-axis (latitude)
-plt.ylim(-74.2, -73.65)  # Set the limits for the y-axis (longitude)
-# print(df['Name'].value_counts())
-print(df['Random_Score'].describe())
-plt.show()
-
-df = pd.read_csv('data.csv')
-geolocator = GoogleV3(api_key="AIzaSyBu8Jo9OrbW-7jjKUPFF38bsXoVZu-6tI4")
-
-# Display the first few rows of the DataFrame
-# Create an empty list to store the geocoded data
-geocoded_data = []
-
-# Geocode each address
-for address in df["Location"]:
-    address = address[:-5]
-    aux_address = address + ", New York City"
-    location = geolocator.geocode(aux_address)
-    if location:
-        # Append the data to the list
-        geocoded_data.append({
-            'Address': address,
-            'Latitude': location.latitude,
-            'Longitude': location.longitude
+        midpoints.append({
+            'Name': 'Potential Store',
+            'Address': 'Potential Address',
+            'Latitude': cluster_center[0],
+            'Longitude': cluster_center[1],
+            'Random_Score': 0,
+            'Other_Column': 0  # Replace with actual column names and default values
         })
-    else:
-        # Append the data with None if the address is not found
-        geocoded_data.append({
-            'Address': address,
-            'Latitude': None,
-            'Longitude': None
-        })
+    # print(f"Midpoint coordinates: Latitude = {mid_latitude}, Longitude = {mid_longitude}")
 
-for i, income in enumerate(df['All Households']):
-    geocoded_data[i]['Income'] = income
+midpoints_df = pd.DataFrame(midpoints, columns=['Name', 'Adresss', 'Latitude', 'Longitude', 'Rating', 'User Ratings Total'])
 
-print(df["All Households"])
-# Convert the list of dictionaries into a Pandas DataFrame
-df = pd.DataFrame(geocoded_data)
+print(midpoints_df)
 
-# Save the DataFrame to a CSV file
-df.to_csv('district_and_location.csv', index=False)
-
-# Print the DataFrame to verify
-print(df)
-
+df3 = pd.concat([df, midpoints_df], ignore_index=True)
+midpoints_df.to_csv("midpoints.csv", index=False)
