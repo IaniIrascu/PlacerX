@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 from geopy.geocoders import GoogleV3
 from geopy.distance import geodesic
 
@@ -25,7 +26,20 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
     # Calculate the midpoint coordinates of all stores within the radius
     coordinates = stores_within_radius[['Latitude', 'Longitude']]
     if not coordinates.empty:
-        kmeans = KMeans(n_clusters=5, random_state=0).fit(coordinates)
+        # Determine the best number of clusters using the Elbow Method
+        inertia = []
+        silhouette_scores = []
+        K = range(2, min(10, len(coordinates)))
+        for k in K:
+            kmeans = KMeans(n_clusters=k, random_state=0).fit(coordinates)
+            inertia.append(kmeans.inertia_)
+            if k > 1 and len(coordinates) > k:
+                silhouette_scores.append(silhouette_score(coordinates, kmeans.labels_))
+            else:
+                silhouette_scores.append(-1)
+        best_k = K[np.argmax(silhouette_scores[1:]) + 1]
+
+        kmeans = KMeans(n_clusters=best_k, random_state=0).fit(coordinates)
         cluster_center = kmeans.cluster_centers_[0]
 
         midpoints.append({
@@ -33,10 +47,9 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
             'Address': 'Potential Address',
             'Latitude': cluster_center[0],
             'Longitude': cluster_center[1],
-            'Random_Score': 0,
-            'Other_Column': 0  # Replace with actual column names and default values
+            'Rating': 0,
+            'User Ratings Total': 0  # Replace with actual column names and default values
         })
-    # print(f"Midpoint coordinates: Latitude = {mid_latitude}, Longitude = {mid_longitude}")
 
 midpoints_df = pd.DataFrame(midpoints, columns=['Name', 'Adresss', 'Latitude', 'Longitude', 'Rating', 'User Ratings Total'])
 
