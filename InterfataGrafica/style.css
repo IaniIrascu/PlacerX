@@ -1,0 +1,147 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFBE9;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: center;
+}
+
+.box1 {
+    width: 65%; /* Larger box width */
+    height: 800px; /* Set height */
+    align-items: text;
+    text-align: center;
+    background-color: #CEAB93;
+    line-height: 10px;
+    border-radius: 20px;
+    
+}
+
+.box2 {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack the label and select vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 760px; /* Set a fixed height for the container */
+    background-color: #E3CAA5; /* Container background color */
+    padding: 20px; /* Padding for some space inside the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.chooselabel {
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between label and select */
+}
+
+.chooseselect {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.box1 img {
+    width: 95%; /* Make image fill the width of the div */
+    height: 95%;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.imagemainmap:hover {
+    opacity: 0.90; /* Change opacity on hover */
+}
+
+.imagemainmap {
+    height: 900px;
+    width: 900px;
+}
+
+select {
+    font-size: 24px;
+    padding: 10px; 
+    border: 2px solid #914F1E; 
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+    color: #333;
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    border-color: #914F1E;
+    background-color: #d0cccc;
+}
+
+option {
+    padding: 10px;
+}
+
+.choose {
+    font-size: 24px;
+}
+
+.mainheader {
+    width: 400px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: #941d1d;
+    border: 3px solid black;
+}
+
+.symbol {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.topsite {
+    width: 100%;
+    background-image: url('./city\ \(2\).png'); /* Background image URL */
+}
+
+.image-label-container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.image-label-container img {
+    width: 100px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and label */
+}
+
+.image-label-container span {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+}
