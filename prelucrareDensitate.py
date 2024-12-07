@@ -25,9 +25,11 @@ df['Populatie'] = df['2010 Population']
 
 df['Area'] = df['Borough'].map(dimensiune_cartier)
 
-df['Population Density'] = df['Populatie'] / df['Area']
+df['Population Density'] = df['Populatie'] / df['Area'] * 6
 
 df.to_csv('nyc_population_density_with_area.csv', index=False)
 
 plt.title('Population Density by Borough')
+sns.barplot(x='Population Density', y='Borough', data=df, palette='viridis')
+plt.xlabel('Population Density (people per square mile)')
 plt.show()

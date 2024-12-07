@@ -7,8 +7,8 @@ import time
 gmaps = googlemaps.Client(key='AIzaSyBu8Jo9OrbW-7jjKUPFF38bsXoVZu-6tI4')
 
 # Define the bounding box for the area (min_lat, max_lat, min_lng, max_lng)
-min_lat, max_lat = 40.6, 40.9
-min_lng, max_lng = -74.1, -73.7
+min_lat, max_lat = 40.5, 41
+min_lng, max_lng = -74.2, -73.6
 
 # Generate grid points (adjust step size for finer grids)
 lat_points = np.arange(min_lat, max_lat, 0.05)  # Approx. 5 km steps
@@ -16,7 +16,7 @@ lng_points = np.arange(min_lng, max_lng, 0.05)
 centers = [(lat, lng) for lat in lat_points for lng in lng_points]
 
 radius = 5000  # Smaller radius for detailed searches
-place_type = "grocery_or_supermarket"  # Type of place to search
+place_type = "supermarket"
 
 # Data storage
 data = []
@@ -38,8 +38,6 @@ for center in centers:
                         'Address': place.get('vicinity', ''),
                         'Latitude': place['geometry']['location']['lat'],
                         'Longitude': place['geometry']['location']['lng'],
-                        'Rating': place.get('rating', 'N/A'),
-                        'User Ratings Total': place.get('user_ratings_total', 0)
                     })
 
             # Check for next page
@@ -57,4 +55,4 @@ for center in centers:
 
 # Save final results to CSV
 df = pd.DataFrame(data)
-df.to_csv("stores_large.csv", index=False)
+df.to_csv("supermarket_initial.csv", index=False)
