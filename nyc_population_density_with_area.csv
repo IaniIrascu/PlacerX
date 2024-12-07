@@ -1,60 +1,60 @@
 Borough,CD Name,2010 Population,Populatie,Area,Population Density
-Bronx,"Melrose, Mott Haven, Port Morris",91497,91497,42.2,2168.175355450237
-Bronx,"Hunts Point, Longwood",52246,52246,42.2,1238.0568720379147
-Bronx,"Morrisania, Crotona Park East",79762,79762,42.2,1890.0947867298578
-Bronx,"Highbridge, Concourse Village",146441,146441,42.2,3470.165876777251
-Bronx,"University Hts., Fordham, Mt. Hope",128200,128200,42.2,3037.9146919431278
-Bronx,"East Tremont, Belmont",83268,83268,42.2,1973.1753554502368
-Bronx,"Bedford Park, Norwood, Fordham",139286,139286,42.2,3300.6161137440754
-Bronx,"Riverdale, Kingsbridge, Marble Hill",101731,101731,42.2,2410.687203791469
-Bronx,"Soundview, Parkchester",172298,172298,42.2,4082.890995260663
-Bronx,"Throgs Nk., Co-op City, Pelham Bay",120392,120392,42.2,2852.890995260663
-Bronx,"Pelham Pkwy, Morris Park, Laconia",113232,113232,42.2,2683.2227488151657
-Bronx,"Wakefield, Williamsbridge",152344,152344,42.2,3610.0473933649287
-Brooklyn,"Williamsburg, Greenpoint",173083,173083,69.4,2493.9913544668584
-Brooklyn,"Brooklyn Heights, Fort Greene",99617,99617,69.4,1435.4034582132563
-Brooklyn,Bedford Stuyvesant,152985,152985,69.4,2204.394812680115
-Brooklyn,Bushwick,112634,112634,69.4,1622.9682997118155
-Brooklyn,"East New York, Starrett City",182896,182896,69.4,2635.3890489913542
-Brooklyn,"Park Slope, Carroll Gardens",104709,104709,69.4,1508.7752161383285
-Brooklyn,"Sunset Park, Windsor Terrace",126230,126230,69.4,1818.8760806916425
-Brooklyn,Crown Heights North,96317,96317,69.4,1387.8530259365994
-Brooklyn,"Crown Heights South, Wingate",98429,98429,69.4,1418.28530259366
-Brooklyn,"Bay Ridge, Dyker Heights",124491,124491,69.4,1793.8184438040344
-Brooklyn,"Bensonhurst, Bath Beach",181981,181981,69.4,2622.2046109510084
-Brooklyn,"Borough Park, Ocean Parkway",191382,191382,69.4,2757.665706051873
-Brooklyn,"Coney Island, Brighton Beach",104278,104278,69.4,1502.564841498559
-Brooklyn,"Flatbush, Midwood",160664,160664,69.4,2315.0432276657057
-Brooklyn,"Sheepshead Bay, Gerritsen Beach",159650,159650,69.4,2300.4322766570604
-Brooklyn,"Brownsville, Ocean Hill",86468,86468,69.4,1245.936599423631
-Brooklyn,"East Flatbush, Rugby, Farragut",155252,155252,69.4,2237.0605187319884
-Brooklyn,"Canarsie, Flatlands",193543,193543,69.4,2788.8040345821323
-Manhattan,"Battery Park City, Tribeca",60978,60978,22.7,2686.2555066079294
-Manhattan,"Greenwich Village, Soho",90016,90016,22.7,3965.4625550660794
-Manhattan,"Lower East Side, Chinatown",163277,163277,22.7,7192.819383259912
-Manhattan,"Chelsea, Clinton",103245,103245,22.7,4548.237885462555
-Manhattan,Midtown Business District,51673,51673,22.7,2276.343612334802
-Manhattan,"Stuyvesant Town, Turtle Bay",142745,142745,22.7,6288.325991189427
-Manhattan,"West Side, Upper West Side",209084,209084,22.7,9210.748898678414
-Manhattan,Upper East Side,219920,219920,22.7,9688.105726872247
-Manhattan,"Manhattanville, Hamilton Heights",110193,110193,22.7,4854.31718061674
-Manhattan,Central Harlem,115723,115723,22.7,5097.929515418502
-Manhattan,East Harlem,120511,120511,22.7,5308.854625550661
-Manhattan,"Washington Heights, Inwood",190020,190020,22.7,8370.925110132159
-Queens,"Astoria, Long Island City",191105,191105,108.7,1758.095676172953
-Queens,"Sunnyside, Woodside",113200,113200,108.7,1041.3983440662373
-Queens,"Jackson Heights, North Corona",171576,171576,108.7,1578.4360625574977
-Queens,"Elmhurst, South Corona",172598,172598,108.7,1587.8380864765409
-Queens,"Ridgewood, Glendale, Maspeth",169190,169190,108.7,1556.4857405703772
-Queens,"Forest Hills, Rego Park",113257,113257,108.7,1041.9227230910763
-Queens,"Flushing, Bay Terrace",247354,247354,108.7,2275.5657773689054
-Queens,"Fresh Meadows, Briarwood",151107,151107,108.7,1390.128794848206
-Queens,"Woodhaven, Richmond Hill",143317,143317,108.7,1318.4636614535418
-Queens,"Ozone Park, Howard Beach",122396,122396,108.7,1125.998160073597
-Queens,"Bayside, Douglaston, Little Neck",116431,116431,108.7,1071.1223551057958
-Queens,"Jamaica, St. Albans, Hollis",225919,225919,108.7,2078.371665133395
-Queens,"Queens Village, Rosedale",188593,188593,108.7,1734.9862005519778
-Queens,"The Rockaways, Broad Channel",114978,114978,108.7,1057.7552897884084
-Staten Island,"Stapleton, Port Richmond",175756,175756,57.5,3056.6260869565217
-Staten Island,"New Springville, South Beach",132003,132003,57.5,2295.704347826087
-Staten Island,"Tottenville, Woodrow, Great Kills",160209,160209,57.5,2786.24347826087
+Bronx,"Melrose, Mott Haven, Port Morris",91497,91497,42.2,13009.052132701421
+Bronx,"Hunts Point, Longwood",52246,52246,42.2,7428.341232227488
+Bronx,"Morrisania, Crotona Park East",79762,79762,42.2,11340.568720379146
+Bronx,"Highbridge, Concourse Village",146441,146441,42.2,20820.995260663505
+Bronx,"University Hts., Fordham, Mt. Hope",128200,128200,42.2,18227.488151658767
+Bronx,"East Tremont, Belmont",83268,83268,42.2,11839.052132701421
+Bronx,"Bedford Park, Norwood, Fordham",139286,139286,42.2,19803.69668246445
+Bronx,"Riverdale, Kingsbridge, Marble Hill",101731,101731,42.2,14464.123222748814
+Bronx,"Soundview, Parkchester",172298,172298,42.2,24497.34597156398
+Bronx,"Throgs Nk., Co-op City, Pelham Bay",120392,120392,42.2,17117.34597156398
+Bronx,"Pelham Pkwy, Morris Park, Laconia",113232,113232,42.2,16099.336492890994
+Bronx,"Wakefield, Williamsbridge",152344,152344,42.2,21660.284360189573
+Brooklyn,"Williamsburg, Greenpoint",173083,173083,69.4,14963.948126801151
+Brooklyn,"Brooklyn Heights, Fort Greene",99617,99617,69.4,8612.420749279538
+Brooklyn,Bedford Stuyvesant,152985,152985,69.4,13226.36887608069
+Brooklyn,Bushwick,112634,112634,69.4,9737.809798270893
+Brooklyn,"East New York, Starrett City",182896,182896,69.4,15812.334293948126
+Brooklyn,"Park Slope, Carroll Gardens",104709,104709,69.4,9052.65129682997
+Brooklyn,"Sunset Park, Windsor Terrace",126230,126230,69.4,10913.256484149855
+Brooklyn,Crown Heights North,96317,96317,69.4,8327.118155619595
+Brooklyn,"Crown Heights South, Wingate",98429,98429,69.4,8509.71181556196
+Brooklyn,"Bay Ridge, Dyker Heights",124491,124491,69.4,10762.910662824206
+Brooklyn,"Bensonhurst, Bath Beach",181981,181981,69.4,15733.22766570605
+Brooklyn,"Borough Park, Ocean Parkway",191382,191382,69.4,16545.994236311235
+Brooklyn,"Coney Island, Brighton Beach",104278,104278,69.4,9015.389048991354
+Brooklyn,"Flatbush, Midwood",160664,160664,69.4,13890.259365994234
+Brooklyn,"Sheepshead Bay, Gerritsen Beach",159650,159650,69.4,13802.593659942362
+Brooklyn,"Brownsville, Ocean Hill",86468,86468,69.4,7475.6195965417855
+Brooklyn,"East Flatbush, Rugby, Farragut",155252,155252,69.4,13422.36311239193
+Brooklyn,"Canarsie, Flatlands",193543,193543,69.4,16732.824207492795
+Manhattan,"Battery Park City, Tribeca",60978,60978,22.7,16117.533039647577
+Manhattan,"Greenwich Village, Soho",90016,90016,22.7,23792.77533039648
+Manhattan,"Lower East Side, Chinatown",163277,163277,22.7,43156.91629955947
+Manhattan,"Chelsea, Clinton",103245,103245,22.7,27289.42731277533
+Manhattan,Midtown Business District,51673,51673,22.7,13658.061674008812
+Manhattan,"Stuyvesant Town, Turtle Bay",142745,142745,22.7,37729.955947136565
+Manhattan,"West Side, Upper West Side",209084,209084,22.7,55264.49339207048
+Manhattan,Upper East Side,219920,219920,22.7,58128.63436123348
+Manhattan,"Manhattanville, Hamilton Heights",110193,110193,22.7,29125.90308370044
+Manhattan,Central Harlem,115723,115723,22.7,30587.577092511012
+Manhattan,East Harlem,120511,120511,22.7,31853.127753303965
+Manhattan,"Washington Heights, Inwood",190020,190020,22.7,50225.55066079296
+Queens,"Astoria, Long Island City",191105,191105,108.7,10548.574057037718
+Queens,"Sunnyside, Woodside",113200,113200,108.7,6248.390064397424
+Queens,"Jackson Heights, North Corona",171576,171576,108.7,9470.616375344987
+Queens,"Elmhurst, South Corona",172598,172598,108.7,9527.028518859246
+Queens,"Ridgewood, Glendale, Maspeth",169190,169190,108.7,9338.914443422264
+Queens,"Forest Hills, Rego Park",113257,113257,108.7,6251.536338546457
+Queens,"Flushing, Bay Terrace",247354,247354,108.7,13653.394664213432
+Queens,"Fresh Meadows, Briarwood",151107,151107,108.7,8340.772769089237
+Queens,"Woodhaven, Richmond Hill",143317,143317,108.7,7910.78196872125
+Queens,"Ozone Park, Howard Beach",122396,122396,108.7,6755.988960441582
+Queens,"Bayside, Douglaston, Little Neck",116431,116431,108.7,6426.734130634775
+Queens,"Jamaica, St. Albans, Hollis",225919,225919,108.7,12470.22999080037
+Queens,"Queens Village, Rosedale",188593,188593,108.7,10409.917203311867
+Queens,"The Rockaways, Broad Channel",114978,114978,108.7,6346.53173873045
+Staten Island,"Stapleton, Port Richmond",175756,175756,57.5,18339.75652173913
+Staten Island,"New Springville, South Beach",132003,132003,57.5,13774.226086956522
+Staten Island,"Tottenville, Woodrow, Great Kills",160209,160209,57.5,16717.46086956522

@@ -11,7 +11,7 @@ density = df['Density']
 lat_cart = df["Latitude"]
 lon_cart = df["Longitude"]
 
-df = pd.read_csv('dataset.csv')
+df = pd.read_csv('supermarket_initial.csv')
 lat_shop = df["Latitude"]
 lon_shop = df["Longitude"]
 
@@ -34,12 +34,7 @@ for i in range(length_shop):
     income_list.append(income[saved_cartier])
     density_list.append(density[saved_cartier])
 
-
-
-
-
-
 df['Income'] = income_list
 df['Density'] = density_list
 
-df.to_csv('datasetaux.csv', index=False)
+df.to_csv('supermarket_enhanced.csv', index=False)
