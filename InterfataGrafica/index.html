@@ -31,7 +31,7 @@
         <div class = "box1">
             <br><br>
             <a href = "https://www.google.com/maps/place/New+York,+Statele+Unite+ale+Americii/@40.6970193,-74.309324,10z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D">
-                <img src="../Harta_NYC.png" alt="Description of image" class = "imagemainmap" id = "image">
+                <img src="Nothing_NYC.png" alt="Description of image" class = "imagemainmap" id = "image">
             </a>
             
         </div>
@@ -49,6 +49,8 @@
                 <option value="Supermarket">Supermarket</option>
                 <option value="Department Store">Department Store</option>
             </select>
+            <br>
+            <button class="myButton">Generate location</button>
         </div>
     </div>
     
@@ -64,12 +66,53 @@
         if (selectedStore === "Bucharest") {
             imageElement.src = "Bucharest.jpg"; // Update to your image path
             imageElement.alt = "Bucharest";
+            document.getElementById("store_type").value = "None"
         } else if (selectedStore === "New York City") {
-            imageElement.src = "../Harta_NYC.png"; // Update to your image path
+            imageElement.src = "Nothing_NYC.png"; // Update to your image path
             imageElement.alt = "NYC";
+            document.getElementById("store_type").value = "None"
         } else {
             imageElement.src = "none.jpg"; // Default image when "None" is selected
             imageElement.alt = "No Store Selected";
+        }
+    });
+
+    document.getElementById("store_type").addEventListener("change", function() {
+        var selectedStore = this.value;
+        var imageElement = document.getElementById("image");
+
+        // Change image based on selected option
+        if (document.getElementById("city_type").value === "New York City") {
+            if (selectedStore === "Grocery Store") {
+                imageElement.src = "./conv_NYC.png"; // Update to your image path
+                imageElement.alt = "Bucharest";
+            } else if (selectedStore === "Supermarket") {
+                imageElement.src = "./supermarket_NYC.png"; // Update to your image path
+                imageElement.alt = "NYC";
+            } else if (selectedStore === "Department Store") {
+                imageElement.src = "./dp_NYC.png"; // Default image when "None" is selected
+                imageElement.alt = "No Store Selected";
+            }
+            else {
+                imageElement.src = "./Nothing_NYC.png"
+                imageElement.alt = "None"
+            }
+        }
+        if (document.getElementById("city_type").value === "Bucharest") {
+            if (selectedStore === "Grocery Store") {
+                imageElement.src = "./conv_buc.png"; // Update to your image path
+                imageElement.alt = "Bucharest";
+            } else if (selectedStore === "Supermarket") {
+                imageElement.src = "./supermarket_buc.png"; // Update to your image path
+                imageElement.alt = "NYC";
+            } else if (selectedStore === "Department Store") {
+                imageElement.src = "./dp_buc.png"; // Default image when "None" is selected
+                imageElement.alt = "No Store Selected";
+            }
+            else {
+                imageElement.src = "./none.png"
+                imageElement.alt = "None"
+            }
         }
     });
 </script>
