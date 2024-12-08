@@ -1,6 +1,3 @@
 import pandas as pd
-df = pd.read_csv('sectoare_cu_densitate.csv')
-del df['Densitate']
-del df['Venituri']
-del df['Trafic']
-df.to_csv('sectoare.csv', index  = False)
+df = pd.read_csv('department_initial.csv')
+print(df['Name'].value_counts())
