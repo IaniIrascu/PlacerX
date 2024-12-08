@@ -96,6 +96,7 @@
             <select id="city_type" name="city_type" class="styleselect">
                 <option value="None">None</option>
                 <option value="Bucharest">Bucharest</option>
+                <option value="Paris">Paris</option>
                 <option value="New York City">New York City</option>
             </select>
             <label for="store_type" class="chooselabel"><p class="choose">Choose the type of store:</p></label>
@@ -131,8 +132,21 @@
     <script src="NewYork/supermarket_additions.js"></script>
     <script src="NewYork/department_initial.js"></script>
     <script src="NewYork/department_additions.js"></script>
+    <script src="Bucharest/convenience_initial.js"></script>
+    <script src="Bucharest/convenience_additions.js"></script>
+    <script src="Bucharest/supermarket_initial.js"></script>
+    <script src="Bucharest/supermarket_additions.js"></script>
+    <script src="Bucharest/department_initial.js"></script>
+    <script src="Bucharest/department_additions.js"></script>
+    <script src="Paris/convenience_initial.js"></script>
+    <script src="Paris/convenience_additions.js"></script>
+    <script src="Paris/supermarket_initial.js"></script>
+    <script src="Paris/supermarket_additions.js"></script>
+    <script src="Paris/department_initial.js"></script>
+    <script src="Paris/department_additions.js"></script>
     
     <script>
+        
         // Initialize the Leaflet map
         var map = L.map('map', {
             zoomControl: false,
@@ -171,8 +185,8 @@
 
         // Initialize layer groups object
         var layers = {
-            /* "Bucharest": {
-                "Convenience Store": L.geoJson(json_Bucharest_convenience_initial, {
+            "Bucharest": {
+                "Convenience": L.geoJson(json_Bucharest_convenience_initial, {
                     pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, style_stores(feature));
                     },
@@ -188,7 +202,7 @@
                         layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
                     }
                 }),
-                "Department Store": L.geoJson(json_Bucharest_department_initial, { // Example for Department Store
+                "Department": L.geoJson(json_Bucharest_department_initial, { // Example for Department Store
                     pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, style_stores(feature));
                     },
@@ -196,7 +210,33 @@
                         layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
                     }
                 })
-            }, */
+            },
+            "Paris": {
+                "Convenience": L.geoJson(json_Paris_convenience_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket": L.geoJson(json_Paris_supermarket_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department": L.geoJson(json_Paris_department_initial, { // Example for Department Store
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            },
             "New York City": {
                 "Convenience": L.geoJson(json_NewYork_convenience_initial, {
                     pointToLayer: function (feature, latlng) {
@@ -234,6 +274,58 @@
         storeSelect.addEventListener('change', updateMap);
 
         var additionsLayers = {
+            "Bucharest": {
+                "Convenience Additions": L.geoJson(json_Bucharest_convenience_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket Additions": L.geoJson(json_Bucharest_supermarket_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department Additions": L.geoJson(json_Bucharest_department_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            },
+            "Paris": {
+                "Convenience Additions": L.geoJson(json_Paris_convenience_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket Additions": L.geoJson(json_Paris_supermarket_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department Additions": L.geoJson(json_Paris_department_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            },
             "New York City": {
                 "Convenience Additions": L.geoJson(json_NewYork_convenience_additions, {
                     pointToLayer: function (feature, latlng) {
