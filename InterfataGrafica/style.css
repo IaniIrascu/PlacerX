@@ -32,11 +32,12 @@ footer {
 .container {
     display: flex; /* Use flexbox */
     justify-content: center;
+    flex-direction: row;
+    height: 1000px;
 }
 
 .box1 {
-    width: 65%; /* Larger box width */
-    height: 800px; /* Set height */
+    width: 50%; /* Larger box width */
     align-items: text;
     text-align: center;
     background-color: #CEAB93;
@@ -50,7 +51,6 @@ footer {
     flex-direction: column; /* Stack the label and select vertically */
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    height: 760px; /* Set a fixed height for the container */
     background-color: #E3CAA5; /* Container background color */
     padding: 20px; /* Padding for some space inside the container */
     border-radius: 8px; /* Rounded corners */
@@ -78,10 +78,6 @@ footer {
     opacity: 0.90; /* Change opacity on hover */
 }
 
-.imagemainmap {
-    height: 900px;
-    width: 900px;
-}
 
 select {
     font-size: 24px;
@@ -144,4 +140,22 @@ option {
     font-size: 16px;
     font-family: Arial, sans-serif;
     color: #333; /* Text color */
+}
+
+.myButton {
+    background-color: #b34929d6; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Text size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+}
+
+.myButton:hover {
+    background-color: #b34929d6; /* Darker green on hover */
 }
