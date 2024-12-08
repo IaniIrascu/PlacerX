@@ -9,6 +9,20 @@ from geopy.distance import geodesic
 from scipy.spatial.distance import pdist, squareform
 from water import is_on_water
 
+choice = 'convenience'
+
+radius_dict = {
+    'department': 5,
+    'supermarket': 2,
+    'convenience': 0.5
+}
+
+name_dict = {
+    'department': 'Burlington',
+    'supermarket': 'CTown Supermarkets',
+    'convenience': 'Wallgreens'
+}
+
 def select_further_apart_stores(stores, min_distance):
     selected = []
     for _, store in stores.iterrows():
@@ -17,10 +31,10 @@ def select_further_apart_stores(stores, min_distance):
             selected.append(store)
     return pd.DataFrame(selected)
 
-df = pd.read_csv('convenience_enhanced.csv')
+df = pd.read_csv(f'{choice}_enhanced.csv')
 
-df2 = pd.read_csv('district_and_location.csv')
-df3 = pd.read_csv('convenience_initial.csv')
+df2 = pd.read_csv('datasets/district_and_location.csv')
+df3 = pd.read_csv(f'{choice}_initial.csv')
 
 def within_radius(row, center, radius):
     store_point = (row['Latitude'], row['Longitude'])
@@ -66,7 +80,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
     sample_size = len(non_zero_weights)
 
     selected_store = non_zero_weights.sample(weights=non_zero_weights['Weighted'], n=sample_size, replace=True)
-    selected_store = select_further_apart_stores(selected_store, 0.5)
+    selected_store = select_further_apart_stores(selected_store, radius_dict[choice])
     # Select stores based on weights
     coordinates = selected_store[['Latitude', 'Longitude']]
 
@@ -95,7 +109,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
         kmeans = KMeans(n_clusters=adjusted_k, random_state=0).fit(coordinates)
         cluster_center = kmeans.cluster_centers_[0]
         
-        same_stores_within_radius = df[(df['Name'].str.contains('Wallgreens')) & df.apply(within_radius, center=cluster_center, radius=3, axis=1)]
+        same_stores_within_radius = df[(df['Name'].str.contains('Wallgreens')) & df.apply(within_radius, center=cluster_center, radius=radius_dict[choice], axis=1)]
         if is_on_water(cluster_center[0], cluster_center[1]) or not same_stores_within_radius.empty:
             continue
         if same_stores_within_radius.empty:
@@ -116,7 +130,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
             midpoints.append(['Wallgreens', address, cluster_center[0], cluster_center[1]])
 
 midpoints_df = pd.DataFrame(midpoints, columns=['Name', 'Address', 'Latitude', 'Longitude'])
-midpoints_df.to_csv("convenience_additions.csv", index=False)
+midpoints_df.to_csv(f'{choice}_additions.csv', index=False)
 
 df4 = pd.concat([df3, midpoints_df], ignore_index=True)
-df4.to_csv("convenience_final.csv", index=False)
+df4.to_csv(f'{choice}_final.csv', index=False)

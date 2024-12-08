@@ -6,7 +6,7 @@ from geopy.distance import geodesic
 from scipy.spatial.distance import pdist, squareform
 
 df = pd.read_csv('convenience_enhanced.csv')
-df2 = pd.read_csv('district_and_location.csv')
+df2 = pd.read_csv('datasets/district_and_location.csv')
 
 print(df['Name'].value_counts())
 
