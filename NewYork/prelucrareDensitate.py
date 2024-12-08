@@ -4,8 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv("density.csv")
-
+df = pd.read_csv("datasets/density.csv")
 
 del df['CD Number']
 del df['1970 Population']
@@ -27,9 +26,4 @@ df['Area'] = df['Borough'].map(dimensiune_cartier)
 
 df['Population Density'] = df['Populatie'] / df['Area'] * 6
 
-df.to_csv('nyc_population_density_with_area.csv', index=False)
-
-plt.title('Population Density by Borough')
-sns.barplot(x='Population Density', y='Borough', data=df, palette='viridis')
-plt.xlabel('Population Density (people per square mile)')
-plt.show()
+df.to_csv('datasets/nyc_population_density_with_area.csv', index=False)

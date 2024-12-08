@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 from geopy.geocoders import GoogleV3
 
-df2 = pd.read_csv('data.csv')
+df2 = pd.read_csv('datasets/data.csv')
 geolocator = GoogleV3(api_key="AIzaSyBu8Jo9OrbW-7jjKUPFF38bsXoVZu-6tI4")
 
 # Display the first few rows of the DataFrame
@@ -37,4 +37,4 @@ for i, income in enumerate(df2['All Households']):
 # Convert the list of dictionaries into a Pandas DataFrame
 df2 = pd.DataFrame(geocoded_data)
 # Save the DataFrame to a CSV file
-df2.to_csv('district_and_location.csv', index=False)
+df2.to_csv('datasets/district_and_location.csv', index=False)

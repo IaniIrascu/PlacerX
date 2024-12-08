@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from geopy.geocoders import GoogleV3
 import math
 
-df = pd.read_csv('income_cu_traffic.csv')
+df = pd.read_csv('datasets/income_cu_traffic.csv')
 
 income = df["Income"]
 density = df["Density"]
