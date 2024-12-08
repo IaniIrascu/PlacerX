@@ -13,7 +13,7 @@ lat_cart = df["Latitude"]
 lon_cart = df["Longitude"]
 
 
-df = pd.read_csv('supermarket_initial.csv')
+df = pd.read_csv('department_initial.csv')
 lat_shop = df["Latitude"]
 lon_shop = df["Longitude"]
 
@@ -40,4 +40,4 @@ df['Income'] = income_list
 df['Density'] = density_list
 df['Traffic'] = traffic_list
 
-df.to_csv('supermarket_enhanced.csv', index=False)
+df.to_csv('department_enhanced.csv', index=False)
