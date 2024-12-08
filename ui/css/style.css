@@ -19,11 +19,13 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #f8fae5; /* Dark Green */
+    text-align: center;
 }
 
 header {
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
     background-color: #43766c; /* Dark Green */
     color: #f8fae5; /* Light Cream */
     padding: 20px;
@@ -39,15 +41,17 @@ header {
 .toggle-button {
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: #48746c;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 .toggle-button:hover {
     background-color: #45a049;
 }
+
 
 section {
     padding: 20px;
@@ -101,6 +105,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Vertically centers children */
 }
 
 .chooselabel {
@@ -108,6 +113,7 @@ footer {
     margin-bottom: 10px;
     font-weight: 700;
     color: #76453b; /* Dark Brown */
+    margin-top: 10px;
 }
 
 .styleselect {
@@ -137,6 +143,12 @@ footer {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mainheader h1 {
+    margin: 0; /* Removes any extra margin on the <h1> */
+    line-height: 1.4; /* Adjust line height if needed */
+    color: #ffffff; /* Optional: Change text color */
 }
 
 .symbol {
