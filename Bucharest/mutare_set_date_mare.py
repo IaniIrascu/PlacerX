@@ -13,7 +13,7 @@ trafic = df['Trafic']
 lat_cart = df["Latitude"]
 lon_cart = df["Longitude"]
 
-df = pd.read_csv('convenience_initial.csv')
+df = pd.read_csv('bucuresti_principal.csv')
 lat_shop = df["Latitude"]
 lon_shop = df["Longitude"]
 
@@ -41,4 +41,4 @@ for i in range(length_shop):
 df['Venituri'] = income_list
 df['Density'] = density_list
 df['Trafic'] = trafic_list
-df.to_csv('convenience_initial.csv', index=False)
+df.to_csv('datasetaux.csv', index=False)
