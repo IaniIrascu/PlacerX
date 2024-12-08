@@ -9,6 +9,14 @@ from geopy.distance import geodesic
 from scipy.spatial.distance import pdist, squareform
 from water import is_on_water
 
+def select_further_apart_stores(stores, min_distance):
+    selected = []
+    for _, store in stores.iterrows():
+        store_location = (store['Latitude'], store['Longitude'])
+        if all(geodesic(store_location, (s['Latitude'], s['Longitude'])).km >= min_distance for s in selected):
+            selected.append(store)
+    return pd.DataFrame(selected)
+
 df = pd.read_csv('supermarket_enhanced.csv')
 
 df2 = pd.read_csv('district_and_location.csv')
@@ -37,14 +45,13 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
     distance_matrix = squareform(pdist(coord, metric='euclidean'))
     mean_distances = distance_matrix.mean(axis=1)
     stores_within_radius['Distance_norm'] = (mean_distances - mean_distances.min()) / (mean_distances.max() - mean_distances.min())
-    # Invert distance normalization
 
     # Calculate weighted score
     stores_within_radius['Weighted'] = (
         0.2 * stores_within_radius['Income_norm'] +
-        0.3 * stores_within_radius['Density_norm'] +
-        0.3 * stores_within_radius['Distance_norm'] +
-        0.2 * stores_within_radius['Traffic_norm']
+        0.25 * stores_within_radius['Density_norm'] +
+        0.4 * stores_within_radius['Distance_norm'] +
+        0.15 * stores_within_radius['Traffic_norm']
     )
 
     # Normalize Weighted_Score to sum to 1
@@ -59,7 +66,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
     sample_size = len(non_zero_weights)
 
     selected_store = non_zero_weights.sample(weights=non_zero_weights['Weighted'], n=sample_size, replace=True)
-    
+    selected_store = select_further_apart_stores(selected_store, 0.5)
     # Select stores based on weights
     coordinates = selected_store[['Latitude', 'Longitude']]
 
@@ -70,7 +77,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
         for k in K:
             kmeans = KMeans(n_clusters=k, random_state=0).fit(coordinates)
             inertia.append(kmeans.inertia_)
-            if k > 1 and len(coordinates) > k:
+            if k > 1 and len(coordinates) > k and len(set(kmeans.labels_)) > 1:
                 silhouette_scores.append(silhouette_score(coordinates, kmeans.labels_))
             else:
                 silhouette_scores.append(-1)
@@ -83,7 +90,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
         kmeans = KMeans(n_clusters=best_k, random_state=0).fit(coordinates)
         cluster_center = kmeans.cluster_centers_[0]
         
-        same_stores_within_radius = df[(df['Name'].str.contains('CTown Supermarkets')) & df.apply(within_radius, center=cluster_center, radius=2, axis=1)]
+        same_stores_within_radius = df[(df['Name'].str.contains('CTown Supermarkets')) & df.apply(within_radius, center=cluster_center, radius=3, axis=1)]
         if is_on_water(cluster_center[0], cluster_center[1]) or not same_stores_within_radius.empty:
             continue
         if same_stores_within_radius.empty:
@@ -92,11 +99,14 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
             address_parts = address.split(", ")
             address = address_parts[0]
         
-            df3.add({
+            df.add({
                 'Name': 'CTown Supermarkets',
                 'Address': address,
                 'Latitude': cluster_center[0],
                 'Longitude': cluster_center[1],
+                'Income': 0,
+                'Density': 0,
+                'Traffic': 0
             })
             midpoints.append(['CTown Supermarkets', address, cluster_center[0], cluster_center[1]])
 
