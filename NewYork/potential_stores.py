@@ -43,7 +43,7 @@ def within_radius(row, center, radius):
 
 geolocator = GoogleV3(api_key="AIzaSyBu8Jo9OrbW-7jjKUPFF38bsXoVZu-6tI4")
 
-midpoints = []
+additions = []
 
 for lat, long in zip(df2['Latitude'], df2['Longitude']):
     center = (lat, long)
@@ -127,10 +127,10 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
                 'Density': 0,
                 'Traffic': 0
             })
-            midpoints.append(['Wallgreens', address, cluster_center[0], cluster_center[1]])
+            additions.append(['Wallgreens', address, cluster_center[0], cluster_center[1]])
 
-midpoints_df = pd.DataFrame(midpoints, columns=['Name', 'Address', 'Latitude', 'Longitude'])
-midpoints_df.to_csv(f'{choice}_additions.csv', index=False)
+additions_df = pd.DataFrame(additions, columns=['Name', 'Address', 'Latitude', 'Longitude'])
+additions_df.to_csv(f'{choice}_additions.csv', index=False)
 
-df4 = pd.concat([df3, midpoints_df], ignore_index=True)
+df4 = pd.concat([df3, additions_df], ignore_index=True)
 df4.to_csv(f'{choice}_final.csv', index=False)
