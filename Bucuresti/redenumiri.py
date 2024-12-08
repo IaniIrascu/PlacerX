@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('bucuresti_principal.csv')
+df = pd.read_csv('bucuresti_convenience.csv')
 #Mega Image
 df['Name'] = df['Name'].str.replace(r'.*Mega image.*', 'Mega Image', case=False, regex=True)
 df['Name'] = df['Name'].str.replace(r'.*Shop and.*', 'Mega Image', case=False, regex = True)

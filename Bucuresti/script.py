@@ -16,7 +16,7 @@ lng_points = np.arange(min_lng, max_lng, 0.05)
 centers = [(lat, lng) for lat in lat_points for lng in lng_points]
 
 radius = 5000  # Smaller radius for detailed searches
-place_type = "supermarket"  # Type of place to search
+place_type = "convenience_store"  # Type of place to search
 
 # Data storage
 data = []
@@ -55,4 +55,4 @@ for center in centers:
 
 # Save final results to CSV
 df = pd.DataFrame(data)
-df.to_csv('bucuresti_principal.csv', index=False)
+df.to_csv('bucuresti_convenience.csv', index=False)
