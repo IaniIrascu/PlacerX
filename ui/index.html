@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="css/leaflet.css">
+
+    <!-- Layers Tree Control CSS -->
+    <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+
+    <!-- QGIS2Web CSS -->
+    <link rel="stylesheet" href="css/qgis2web.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Leaflet JavaScript -->
+    <script src="js/leaflet.js"></script>
+
+    <!-- Layers Tree Control JavaScript -->
+    <script src="js/L.Control.Layers.Tree.min.js"></script>
+
+    <!-- Rotated Marker Plugin -->
+    <script src="js/leaflet.rotatedMarker.js"></script>
+
+    <!-- Leaflet Pattern Plugin -->
+    <script src="js/leaflet.pattern.js"></script>
+
+    <!-- GeoJSON Data Scripts -->
+    <!-- Example GeoJSON files for Bucharest -->
+    <!-- <script src="Bucharest/convenience_initial.js"></script>
+    <script src="Bucharest/convenience_additions.js"></script>
+    <script src="Bucharest/supermarket_initial.js"></script>
+    <script src="Bucharest/supermarket_additions.js"></script>
+    <script src="Bucharest/department_initial.js"></script>
+    <script src="Bucharest/department_additions.js"></script> -->
+
+    <!-- Add more GeoJSON script tags for other cities and store types as needed -->
+
+    <!-- QGIS2Web Expressions -->
+    <script src="js/qgis2web_expressions.js"></script>
+
+    <!-- Autolinker JavaScript -->
+    <script src="js/Autolinker.min.js"></script>
+
+    <!-- OSMBuildings Leaflet Plugin -->
+    <script src="js/OSMBuildings-Leaflet.js"></script>
+
+    <!-- Labelgun JavaScript -->
+    <script src="js/labelgun.min.js"></script>
+
+    <!-- RBush JavaScript -->
+    <script src="js/rbush.min.js"></script>
+
+    <!-- Convenience Additions JavaScript -->
+
+    <!-- Other Necessary JavaScript Files -->
+    <!-- Add any other JavaScript files your project requires -->
+    <title>Store Assist</title>
+</head>
+<body>
+    <div class="topsite">
+        <div class="mainheader">
+            <header>
+                <img src="logo.png" alt="Store Assist Logo" class="logo">
+                <h1>STORE ASSIST</h1>
+            </header>
+            <a href="#choosestore">
+                <img src="Shoppingcart.png" alt="Shopping Cart" class="symbol">
+            </a>
+            <a href="#choosestore">
+                <img src="Store.jpg" alt="Store" class="symbol">
+            </a>
+            <a href="#choosestore">
+                <img src="basket.jpg" alt="Basket" class="symbol">
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box1">
+            <a>
+                <div id="map" style="height: 400px;"></div>            
+            </a>
+        </div>
+        <div class="box2">
+            <label for="city_type" class="chooselabel"><p class="choose">Choose your city:</p></label>
+            <select id="city_type" name="city_type" class="styleselect">
+                <option value="None">None</option>
+                <option value="Bucharest">Bucharest</option>
+                <option value="New York City">New York City</option>
+            </select>
+            <label for="store_type" class="chooselabel"><p class="choose">Choose the type of store:</p></label>
+            <select id="store_type" name="store_type" class="styleselect">
+                <option value="None">None</option>
+                <option value="Convenience">Convenience Store</option>
+                <option value="Supermarket">Supermarket</option>
+                <option value="Department">Department Store</option>
+            </select>
+            <button id="toggle-additions" class="toggle-button">Show Additions</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Store Assist. All rights reserved.
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/qgis2web_expressions.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Layers.Tree.min.js"></script>
+    <script src="js/leaflet.rotatedMarker.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/OSMBuildings-Leaflet.js"></script>
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/rbush.min.js"></script>
+    <script src="js/labelgun.min.js"></script>
+    <script src="js/labels.js"></script>
+    <script src="NewYork/convenience_initial.js"></script>
+    <script src="NewYork/convenience_additions.js"></script>
+    <script src="NewYork/supermarket_initial.js"></script>
+    <script src="NewYork/supermarket_additions.js"></script>
+    <script src="NewYork/department_initial.js"></script>
+    <script src="NewYork/department_additions.js"></script>
+    
+    <script>
+        // Initialize the Leaflet map
+        var map = L.map('map', {
+            zoomControl: false,
+            maxZoom: 28,
+            minZoom: 1
+        }).setView([40.75, -73.9], 10); // Default view set to New York City
+
+        // Add Google Maps tiles
+        L.tileLayer('https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}').addTo(map);
+
+        // Define style functions
+        function style_stores(feature) {
+            return {
+                radius: 3,
+                fillColor: "#FFE6A9",
+                color: "#000000",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 1
+            };
+        }
+
+        function style_additions(feature) {
+            return {
+                radius: 5,
+                fillColor: "#659287",
+                color: "#000000",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 1
+            };
+        }
+
+        // Create a feature group for bounds calculation
+        var bounds_group = new L.featureGroup();
+
+        // Initialize layer groups object
+        var layers = {
+            /* "Bucharest": {
+                "Convenience Store": L.geoJson(json_Bucharest_convenience_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket": L.geoJson(json_Bucharest_supermarket_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department Store": L.geoJson(json_Bucharest_department_initial, { // Example for Department Store
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            }, */
+            "New York City": {
+                "Convenience": L.geoJson(json_NewYork_convenience_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket": L.geoJson(json_NewYork_supermarket_initial, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department": L.geoJson(json_NewYork_department_initial, { // Example for Department Store
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_stores(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            }
+        };
+
+        var currentLayers = [];
+
+        var citySelect = document.getElementById('city_type');
+        var storeSelect = document.getElementById('store_type');
+
+        citySelect.addEventListener('change', updateMap);
+        storeSelect.addEventListener('change', updateMap);
+
+        var additionsLayers = {
+            "New York City": {
+                "Convenience Additions": L.geoJson(json_NewYork_convenience_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Supermarket Additions": L.geoJson(json_NewYork_supermarket_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                }),
+                "Department Additions": L.geoJson(json_NewYork_department_additions, {
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, style_additions(feature));
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup("<strong>" + feature.properties.Name + "</strong><br/>" + feature.properties.Address);
+                    }
+                })
+            }
+        };
+    
+        var currentLayers = [];
+        var additionsVisible = false;
+
+        var citySelect = document.getElementById('city_type');
+        var storeSelect = document.getElementById('store_type');
+    
+        function updateMap() {
+            // Clear existing layers
+            currentLayers.forEach(layer => map.removeLayer(layer));
+            currentLayers = [];
+
+            var selectedCity = citySelect.value;
+            var selectedStore = storeSelect.value;
+
+            if (selectedCity !== "None" && selectedStore !== "None") {
+                if (layers[selectedCity] && layers[selectedCity][selectedStore]) {
+                    layers[selectedCity][selectedStore].addTo(map);
+                    currentLayers.push(layers[selectedCity][selectedStore]);
+                }
+
+                if (additionsVisible && additionsLayers[selectedCity] && additionsLayers[selectedCity][selectedStore + " Additions"]) {
+                    additionsLayers[selectedCity][selectedStore + " Additions"].addTo(map);
+                    currentLayers.push(additionsLayers[selectedCity][selectedStore + " Additions"]);
+                }
+            }
+        }
+
+        var toggleButton = document.getElementById('toggle-additions');
+
+        storeSelect.addEventListener('change', updateMap);
+        citySelect.addEventListener('change', updateMap);
+
+        toggleButton.addEventListener('click', function() {
+            var selectedCity = citySelect.value;
+            var selectedStore = storeSelect.value;
+
+            if (selectedCity === "None" || selectedStore === "None") {
+                alert("Please select both city and store type.");
+                return;
+            }
+
+            if (additionsVisible) {
+                var additionLayer = additionsLayers[selectedCity][selectedStore + " Additions"];
+                if (additionLayer) {
+                    map.removeLayer(additionLayer);
+                    currentLayers = currentLayers.filter(layer => layer !== additionLayer);
+                }
+                this.textContent = "Show Additions";
+                additionsVisible = false;
+            } else {
+                var additionLayer = additionsLayers[selectedCity][selectedStore + " Additions"];
+                if (additionLayer) {
+                    additionLayer.addTo(map);
+                    currentLayers.push(additionLayer);
+                    map.fitBounds(additionLayer.getBounds());
+                }
+                this.textContent = "Hide Additions";
+                additionsVisible = true;
+            }
+        });
+    </script>
+</body>
+</html>
