@@ -55,7 +55,4 @@ for center in centers:
 
 # Save final results to CSV
 df = pd.DataFrame(data)
-df['Name'] = df['Name'].str.replace(r'.*Mega image.*', 'Mega Image', case=False, regex=True)
-if 'Unnamed: 0' in df.columns:
-    df = df.drop(columns=['Unnamed: 0'])
 df.to_csv('bucuresti_principal.csv', index=False)
