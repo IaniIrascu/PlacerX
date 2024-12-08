@@ -1,4 +1,4 @@
-var json_Bucharest_datasetaux = {
+var json_Bucharest_supermarket_enhanced = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -6,7 +6,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Alexandriei 229A, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -21,7 +21,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Alexandriei 468, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -36,7 +36,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Speran\u021bei 77, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -51,7 +51,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Atomi\u0219tilor 411, M\u0103gurele",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -66,7 +66,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "V\u00e2rteju",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -81,7 +81,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Alexandriei 229, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -96,7 +96,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Cri\u0219ul Repede 165, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -111,7 +111,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -126,7 +126,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "LA DOI PA\u0218I",
                 "Address": "Strada Libert\u0103\u021bii 110, Comuna Gr\u0103di\u0219tea",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -141,7 +141,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Alis Market",
                 "Address": "Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -156,7 +156,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Strada Clinceni 8, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -171,7 +171,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Phoenix Market",
                 "Address": "M\u0103gurele",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -186,7 +186,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Geny Com Nazuintei Bragadiru",
                 "Address": "Strada N\u0103zuin\u021bei nr. 10, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -201,7 +201,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "ANA MARKET",
                 "Address": "Strada Generalului 14, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -216,7 +216,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Speran\u021bei 69, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -231,7 +231,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Strada Atomi\u0219tilor 373, M\u0103gurele",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -246,7 +246,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Atomi\u0219tilor 261, M\u0103gurele",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -261,7 +261,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Alexandriei 182, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -276,7 +276,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "MINI MARKET Big house investment 2",
                 "Address": "Strada Generalului 2, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -291,7 +291,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Daboco supermarket_2",
                 "Address": "Strada Generalului 2, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -306,7 +306,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "S.C. Geny Com Prod Impex S.R.L.",
                 "Address": "Strada Speran\u021bei 30-32, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -321,7 +321,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "SENS GYM",
                 "Address": "Strada Speran\u021bei Nr.6-8, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -336,7 +336,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Speran\u021bei 6-8, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -351,7 +351,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Alexandriei 132-134, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -366,7 +366,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "\u0218oseaua Alexandriei 112, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -381,7 +381,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Cri\u0219ul Repede 16, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -396,7 +396,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La Karai",
                 "Address": "DJ401A 291-299, M\u0103gurele",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -411,7 +411,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Fortuna, Cartier, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -426,7 +426,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lujerului nr. 8, Bragadiru",
                 "Address": "Strada Lujerului nr. 8, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -441,7 +441,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Sc aprexim prod com serv const srl",
                 "Address": "Strada Celofibrei 18, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -456,7 +456,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Coralului 4, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -471,7 +471,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Daboco Supermarket_1",
                 "Address": "Strada M\u0103r\u0103\u0219e\u0219ti 14E, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -486,7 +486,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Big House Investment",
                 "Address": "Strada M\u0103r\u0103\u0219e\u0219ti 14e, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -501,7 +501,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -516,7 +516,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada M\u0103rgelelor 14 \u0430, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -531,7 +531,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "SAB MARKET",
                 "Address": "\u0218oseaua Bucure\u0219ti-M\u0103gurele 110, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -546,7 +546,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auto Supermarket",
                 "Address": "Strada Pite\u0219ti, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -561,7 +561,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Alexandriei 126a, Cornetu",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -576,7 +576,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Daboco supermarket_3",
                 "Address": "Strada Verii 23, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -591,7 +591,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Clinceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -606,7 +606,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magazin Daminuta",
                 "Address": "DN6 142a, Cornetu",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -621,7 +621,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Alexandriei 152, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -636,7 +636,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua S\u0103laj 325-329, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -651,7 +651,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bucuresti Aleea Livezilor nr. 27\u0430, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -666,7 +666,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Prelungirea Ferentari 52-60, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -681,7 +681,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Davion",
                 "Address": "Bloc 121A, \u0218oseaua Giurgiului 121A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -696,7 +696,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Re\u0219i\u021ba 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -711,7 +711,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "\u0218oseaua Giurgiului 123, Malu",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -726,7 +726,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Teiu\u0219 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -741,7 +741,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Superb Kids S.R.L.",
                 "Address": "TEIUSI, \u0218oseaua Alexandriei 11, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -756,7 +756,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Pucheni 42, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -771,7 +771,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Gr\u0103di\u0219tea 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -786,7 +786,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Best Market 5",
                 "Address": "Aleea Huedin 5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -801,7 +801,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc 1, \u0218oseaua Giurgiului, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -816,7 +816,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Uioara 15, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -831,7 +831,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Supermarket Pucheni Market",
                 "Address": "Bucharest",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -846,7 +846,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Pucheni 216-220, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -861,7 +861,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Drumul G\u0103zarului 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -876,7 +876,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Supermarket Macelarie Fast Food",
                 "Address": "\u0218oseaua Giurgiului 258a, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -891,7 +891,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Tower Residence, \u0218oseaua S\u0103laj 315-323, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -906,7 +906,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Supermarket LIDOR",
                 "Address": "\u0218oseaua Giurgiului 230, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -921,7 +921,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magazin alimentar la Ion-Ion",
                 "Address": "Strada Garoafei 134, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -936,7 +936,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Baciului 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -951,7 +951,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "\u0218oseaua S\u0103laj 269, Bucure\u0219ti 052034, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -966,7 +966,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Zea Supermarket",
                 "Address": "Strada Consecven\u021bei 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -981,7 +981,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Giurgiului 288c, Jilava",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -996,7 +996,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "\u0218oseaua Giurgiului 131, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1011,7 +1011,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "HIDROstore Bucuresti",
                 "Address": "Strada Luica 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1026,7 +1026,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La scarita- Giurgiului",
                 "Address": "\u0218oseaua Giurgiului 131, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1041,7 +1041,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Sirma Minimarket",
                 "Address": "Strada V\u00e2ltoarei, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1056,7 +1056,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Alimentara 4G Team SRL",
                 "Address": "Strada Mun\u021bii Carpa\u021bi 62, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1071,7 +1071,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "\u0218oseaua Alexandriei nr. 166, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1086,7 +1086,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Alexandriei 164, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1101,7 +1101,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Prelungirea Ferentari 66-70, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1116,7 +1116,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Giurgiului 125, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1131,7 +1131,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Giurgiului 125, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1146,7 +1146,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Strada Luica 62-64, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1161,7 +1161,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mirmir",
                 "Address": "\u0218oseaua Giurgiului 124A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1176,7 +1176,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Alexandriei 152, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1191,7 +1191,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Moldoveni 5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1206,7 +1206,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Metalurgiei 12-18, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1221,7 +1221,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Sun Plaza",
                 "Address": "Calea V\u0103c\u0103re\u0219ti 391, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1236,7 +1236,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Selgros",
                 "Address": "Strada Turnu M\u0103gurele 92-108, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1251,7 +1251,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Emil Racovi\u021b\u0103 16A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1266,7 +1266,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Constantin Br\u00e2ncoveanu Bloc M2/3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1281,7 +1281,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Emil Racovi\u021b\u0103 10\u0430. 19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1296,7 +1296,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Lamote\u0219ti 3-5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1311,7 +1311,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Covasna nr. 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1326,7 +1326,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Stupilor, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1341,7 +1341,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Turnu M\u0103gurele 230-232, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1356,7 +1356,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Alexandru Obregia 31, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1371,7 +1371,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Alexandru Obregia 25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1386,7 +1386,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Turnu M\u0103gurele 250-270, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1401,7 +1401,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Izvorul Rece 30, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1416,7 +1416,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc A8, Strada Izvorul Rece 7, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1431,7 +1431,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc 16, Bulevardul Alexandru Obregia 16, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1446,7 +1446,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "\u0218oseaua Berceni 96, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1461,7 +1461,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Erou Mirea Mioara Luiza, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1476,7 +1476,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bucuresti Piata Aparatorii Patriei 1 sector 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1491,7 +1491,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Berceni 41, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1506,7 +1506,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Sergent Major Holut Emil, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1521,7 +1521,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Berceni 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1536,7 +1536,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bloc Amiro, \u0218oseaua Berceni, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1551,7 +1551,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Olteni\u021bei 208, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1566,7 +1566,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Oituz 46, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1581,7 +1581,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Giurgiului 54, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1596,7 +1596,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Berceni, Bucharest",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1611,7 +1611,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Olteni\u021bei 388, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1626,7 +1626,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada S\u0103vine\u015fti 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1641,7 +1641,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Calea V\u0103c\u0103re\u0219ti 391, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1656,7 +1656,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Olteni\u021bei 48-50, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1671,7 +1671,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Calea V\u0103c\u0103re\u0219ti 391, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1686,7 +1686,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Issa",
                 "Address": "Bloc 2C, \u0218oseaua Olteni\u021bei 10, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1701,7 +1701,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Olteni\u021bei nr. 4A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1716,7 +1716,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Grand Arena Mall",
                 "Address": "Bulevardul Metalurgiei 12-18, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1731,7 +1731,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Olteni\u021bei 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1746,7 +1746,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Constantin Br\u00e2ncoveanu 45, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1761,7 +1761,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Olteni\u021bei 17, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1776,7 +1776,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Olteni\u021bei 240, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1791,7 +1791,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Drumul Dealul Bisericii 67-109, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1806,7 +1806,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Huedin Nr. 19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1821,7 +1821,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Giurgiului 118-120, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1836,7 +1836,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Simplu market",
                 "Address": "Strada Postalionului 53, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1851,7 +1851,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Dealul Aluni\u0219 43, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1866,7 +1866,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "LAND EXPRESS",
                 "Address": "Strada Postalionului 25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1881,7 +1881,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Simplu Market",
                 "Address": "Strada Postalionului 25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1896,7 +1896,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Postalionului, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1911,7 +1911,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u015eoseaua Olteni\u0163ei 51A-55, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1926,7 +1926,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Biruin\u021bei 71, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1941,7 +1941,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Amedeea Store",
                 "Address": "Drumul Fermei 109, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1956,7 +1956,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Pope\u0219ti Vest 2, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1971,7 +1971,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "TNLGROUP",
                 "Address": "Drumul Fermei 101, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -1986,7 +1986,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "str.ada, Drumul Fermei 82, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2001,7 +2001,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "\u0218oseaua Berceni 9, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2016,7 +2016,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Drumul Fermei 91, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2031,7 +2031,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Dumitru Brum\u0103rescu 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2046,7 +2046,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Simplu Market",
                 "Address": "Strada Amurgului 54a, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2061,7 +2061,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Fermei 34, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2076,7 +2076,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KMB The Market",
                 "Address": "Bulevardul Metalurgiei, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2091,7 +2091,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Monaco Towers Mall, \u0218oseaua Berceni 96, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2106,7 +2106,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Amurgului 34, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2121,7 +2121,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Amurgului 29, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2136,7 +2136,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Ap\u0103r\u0103torii Patriei, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2151,7 +2151,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Metalurgiei 132, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2166,7 +2166,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Solar Market",
                 "Address": "Bulevardul Metalurgiei 132, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2181,7 +2181,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Pavlichieni 2, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2196,7 +2196,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La Taticu",
                 "Address": "Strada Eclipsei 120, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2211,7 +2211,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magazin Mixt",
                 "Address": "Strada Caporal Marin Grigore nr 9, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2226,7 +2226,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magic shop",
                 "Address": "Drumul Jilavei 58-60, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2241,7 +2241,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Olteni\u021bei 410, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2256,7 +2256,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "963H+M4, Popesti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2271,7 +2271,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Biodepozit",
                 "Address": "Strada Sperantei nr. 60H, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2286,7 +2286,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Fostul Conac Manu supranumit CULA",
                 "Address": "Leordeni, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2301,7 +2301,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Bucuriei",
                 "Address": "Strada Bucuriei, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2316,7 +2316,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "SIMPLU MARKET",
                 "Address": "Bloc 5, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2331,7 +2331,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Libert\u0103\u021bii 123, Glina",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2346,7 +2346,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magazinul Costache",
                 "Address": "Strada V\u0103ii 6, Glina",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2361,7 +2361,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Vacan\u021ba de prim\u0103var\u0103",
                 "Address": "Bulevardul 1 Mai 61e, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2376,7 +2376,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Vacan\u021b\u0103 de iarn\u0103",
                 "Address": "Bulevardul 1 Mai Nr. 66A, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2391,7 +2391,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "C\u0103t\u0103lin Ilie",
                 "Address": "Carrefour Market Langa intrarea din strada, Bulevardul 1 Mai 61, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2406,7 +2406,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul 1 Mai 61 E, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2421,7 +2421,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul 1 Mai Nr. 66A, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2436,7 +2436,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Angela",
                 "Address": "Bulevardul 1 Mai Nr. 66A, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2451,7 +2451,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Sf\u00e2ntul Gheorghe 4, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2466,7 +2466,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Bulevardul 1 Mai 68, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2481,7 +2481,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Produs in Bucovina",
                 "Address": "\u0218oseaua Olteni\u021bei 11a, Pope\u0219ti-Leordeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2496,7 +2496,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Supermarket La Lupu",
                 "Address": "Strada Sportului, Berceni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2511,7 +2511,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Ideal Market",
                 "Address": "Libert\u0103\u021bii, C\u0103\u021belu",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2526,7 +2526,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Bulevardul Iuliu Maniu 536, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2541,7 +2541,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Iuliu Maniu 19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2556,7 +2556,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Iuliu Maniu 8B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2571,7 +2571,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Valea Cascadelor 3-5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2586,7 +2586,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Moine\u0219ti 63, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2601,7 +2601,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Complexului 1, Chiajna",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2616,7 +2616,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Timi\u0219oara 26, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2631,7 +2631,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bloc C63, Bulevardul Ghencea 38, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2646,7 +2646,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Taberei 90, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2661,7 +2661,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada B\u00e2rs\u0103ne\u0219ti 2b, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2676,7 +2676,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Prelungirea Ghencea 89B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2691,7 +2691,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Prelungirea Ghencea, Strada 88-92, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2706,7 +2706,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Prelungirea Ghencea 53bis, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2721,7 +2721,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Prelungirea Ghencea 89B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2736,7 +2736,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Valea Oltului 93-107, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2751,7 +2751,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Cire\u0219ar 12, Bragadiru",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2766,7 +2766,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Valea Arge\u0219ului 5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2781,7 +2781,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Strada Valea Oltului 195, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2796,7 +2796,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "ANDRA TOTAL 2001",
                 "Address": "Bloc C3, Strada R\u00e2ul Doamnei 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2811,7 +2811,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc C3, Strada R\u00e2ul Doamnei 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2826,7 +2826,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc C15, Drumul Taberei 80, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2841,7 +2841,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bulevardul Timi\u0219oara 73, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2856,7 +2856,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul, Drumul Taberei Nr. 124, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2871,7 +2871,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Chilia Veche 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2886,7 +2886,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Strada Valea Cascadelor 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2901,7 +2901,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Prelungirea Ghencea 15B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2916,7 +2916,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Romancierilor 5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2931,7 +2931,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Iuliu Maniu 246, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2946,7 +2946,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Bulevardul Iuliu Maniu 73, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2961,7 +2961,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Strada Bra\u0219ov 25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2976,7 +2976,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada M\u0103rgelelor 11, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -2991,7 +2991,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Bulevardul Iuliu Maniu 560, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3006,7 +3006,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Timi\u0219oara 42C, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3021,7 +3021,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Bulevardul 1 Mai 55, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3036,7 +3036,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Apusului 50, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3051,7 +3051,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Ghirlandei 32-34, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3066,7 +3066,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Bulevardul Iuliu Maniu 19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3081,7 +3081,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Iuliu Maniu Nr. 78, 78-80, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3096,7 +3096,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Iuliu Maniu 51, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3111,7 +3111,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul 1 Mai 18B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3126,7 +3126,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Drumul Taberei 24, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3141,7 +3141,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Uverturii 202-204, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3156,7 +3156,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Rezervelor 72, Ro\u0219u",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3171,7 +3171,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "str. Orsova, nr. 9\u0430, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3186,7 +3186,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Apeductului 26, Ro\u0219u",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3201,7 +3201,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Soarelui 1, Dudu",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3216,7 +3216,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "August\u2122 Orizont - coffee, drinks, food",
                 "Address": "Drumul Taberei 18, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3231,7 +3231,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada M\u0103rgeanului 49, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3246,7 +3246,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada D\u00e2mbovi\u021ba 40, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3261,7 +3261,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Cerni\u0219oara 45, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3276,7 +3276,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Bra\u0219ov nr.23A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3291,7 +3291,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Bulevardul General Paul Teodorescu 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3306,7 +3306,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Rezervelor 71, Ro\u0219u",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3321,7 +3321,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Uverturii 83, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3336,7 +3336,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Strada Mihail Sebastian 88C, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3351,7 +3351,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "N\u0103s\u0103ud Shopping Center, Strada N\u0103s\u0103ud 97, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3366,7 +3366,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Corneliu Coposu 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3381,7 +3381,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Coral Market",
                 "Address": "Strada B\u00e2rc\u0103 9, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3396,7 +3396,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Novaci 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3411,7 +3411,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Ileana Cos\u00e2nzeana 25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3426,7 +3426,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Mihail Sebastian 138-140, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3441,7 +3441,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Mihail Sebastian 88, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3456,7 +3456,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Sergent Nu\u021bu Ion 12, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3471,7 +3471,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "\u0218oseaua S\u0103laj 133, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3486,7 +3486,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Calea Ferentari 62, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3501,7 +3501,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "\u0218oseaua Panduri 71, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3516,7 +3516,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Panduri Nr. 71, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3531,7 +3531,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Tudor Vladimirescu 127, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3546,7 +3546,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Doina 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3561,7 +3561,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Strada Progresului 151-171, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3576,7 +3576,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Pia\u021ba Cotroceni, Pia\u0163a Cotroceni, Strada Sf\u00e2ntul Elefterie 47-49, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3591,7 +3591,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La Doi Pasi",
                 "Address": "Calea \u0218erban Vod\u0103 272, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3606,7 +3606,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Calea \u0218erban Vod\u0103 276A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3621,7 +3621,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Calea Mo\u0219ilor 219, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3636,7 +3636,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Dristorului nr.91-95, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3651,7 +3651,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Bulevardul General Gheorghe Magheru 28-30, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3666,7 +3666,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Camil Ressu 6, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3681,7 +3681,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc 31B, Strada Mihai Eminescu 185, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3696,7 +3696,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Bulevardul Gheorghe \u0218incai 1-1A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3711,7 +3711,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea \u0218erban Vod\u0103 176, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3726,7 +3726,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Constantin R\u0103dulescu-Motru 12, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3741,7 +3741,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc 42, Bloc 42, Parter, Calea Piscului 16, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3756,7 +3756,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Gheorghe \u0218incai 16, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3771,7 +3771,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea V\u0103c\u0103re\u0219ti 220-224, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3786,7 +3786,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Calea V\u0103c\u0103re\u0219ti 176-178, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3801,7 +3801,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Evaluator Imobiliar Bucuresti",
                 "Address": "Plugarilor nr.1 bloc 94 sc B ap.32 etaj 3, District 4, Bucharest, Bucharest",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3816,7 +3816,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Apahida 17-19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3831,7 +3831,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Market BGV Standard",
                 "Address": "Bloc M1, Bulevardul Mircea Vod\u0103 34, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3846,7 +3846,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Regina Maria 24-26, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3861,7 +3861,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Intrarea Tarc\u0103u, Strada 13, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3876,7 +3876,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Unirii 23, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3891,7 +3891,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Unirii, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3906,7 +3906,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Zizin 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3921,7 +3921,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Poenaru Bordea 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3936,7 +3936,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Aio Supermarket Non Stop",
                 "Address": "Bulevardul Na\u021biunile Unite 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3951,7 +3951,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Alexandru Moruzzi Voievod nr. 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3966,7 +3966,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Vitan 13-19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3981,7 +3981,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Vitan 126, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -3996,7 +3996,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Bulevardul 1 Decembrie 1918 33A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4011,7 +4011,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Constantin Br\u00e2ncu\u0219i 23, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4026,7 +4026,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Liviu Rebreanu 6A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4041,7 +4041,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Sauce.Mihai Bravu 140, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4056,7 +4056,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Camil Ressu 41, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4071,7 +4071,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La doi pa\u015fi",
                 "Address": "Bulevardul Camil Ressu 41, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4086,7 +4086,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Intrarea Ion Ciopleanu 8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4101,7 +4101,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Calea Vitan 236, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4116,7 +4116,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada R\u0103cari 57, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4131,7 +4131,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Liviu Rebreanu 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4146,7 +4146,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Vitan 215, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4161,7 +4161,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bloc M1, Bulevardul Nicolae Grigorescu 55, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4176,7 +4176,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "ParkLake Shopping Center",
                 "Address": "Strada Liviu Rebreanu 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4191,7 +4191,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Liviu Rebreanu 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4206,7 +4206,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "5 nr, Strada R\u0103cari, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4221,7 +4221,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Complexului 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4236,7 +4236,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Iosif Hodo\u0219 1A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4251,7 +4251,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Valea Buz\u0103ului 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4266,7 +4266,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Mihai Bravu 292, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4281,7 +4281,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc N3, Strada Liviu Rebreanu 15, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4296,7 +4296,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Liviu Rebreanu 19, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4311,7 +4311,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Theodor Pallady 00, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4326,7 +4326,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Theodor Pallady 30, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4341,7 +4341,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Strada Jean Steriadi 20, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4356,7 +4356,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Bulevardul 1 Decembrie 1918 33, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4371,7 +4371,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Mihail Georgescu 20, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4386,7 +4386,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "33\u0410, Bulevardul 1 Decembrie 1918, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4401,7 +4401,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Buhu\u0219i 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4416,7 +4416,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Strada Turturelelor 50, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4431,7 +4431,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Br\u0103\u021b\u0103rii 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4446,7 +4446,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Popa Nan 119, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4461,7 +4461,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Auchan",
                 "Address": "Bulevardul Theodor Pallady 51N, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4476,7 +4476,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Industriilor 28, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4491,7 +4491,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "SC MIHAELA OPTIM COM SRL",
                 "Address": "Strada Lacul Greaca Numarul 63A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4506,7 +4506,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Vergului 20, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4521,7 +4521,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Basarabia 101, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4536,7 +4536,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Biruin\u021bei 44, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4551,7 +4551,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Cern\u0103u\u021bi 29, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4566,7 +4566,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Pantelimon 283, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4581,7 +4581,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Aleea Barajul Dun\u0103rii 3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4596,7 +4596,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Jean Steriadi 11, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4611,7 +4611,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "\u0218oseaua Fundeni 40, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4626,7 +4626,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Theodor Pallady 73A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4641,7 +4641,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Pantelimon Nr. 249, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4656,7 +4656,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul R\u00e2mnicu S\u0103rat 15, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4671,7 +4671,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Chi\u0219in\u0103u 4, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4686,7 +4686,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Drumul Gura Criv\u0103\u021bului 80, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4701,7 +4701,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Bulevardul Theodor Pallady 51, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4716,7 +4716,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Simplu Market",
                 "Address": "Drumul Gura Criv\u0103\u021bului, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4731,7 +4731,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Theodor Pallady 51, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4746,7 +4746,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Drumul Gura Arie\u0219ului 47-57, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4761,7 +4761,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Bulevardul Theodor Pallady 51, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4776,7 +4776,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Magazinul cu Delicatese Suedeze",
                 "Address": "Bulevardul Theodor Pallady 57, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4791,7 +4791,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Gura Cali\u021bei 53B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4806,7 +4806,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Froo",
                 "Address": "Drumul Gura Putnei 109, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4821,7 +4821,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Drumul Gura Criv\u0103\u021bului 19-23, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4836,7 +4836,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Drumul Gura Putnei 52-54, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4851,7 +4851,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Gura Putnei 86-90, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4866,7 +4866,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Froo",
                 "Address": "Drumul Gura Putnei 118, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4881,7 +4881,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Drumul Gura F\u0103getului 58-68, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4896,7 +4896,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "OVAL MARKET",
                 "Address": "Drumul Gura F\u0103getului 55, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4911,7 +4911,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Po\u0219ta\u0219ului 35 - 37, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4926,7 +4926,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La doi pasi",
                 "Address": "Aleea Mizil 56, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4941,7 +4941,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Po\u0219ta\u0219ului 29A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4956,7 +4956,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Centrul Comercial Colosseum Retail Park, \u0218oseaua Chitilei 284",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4971,7 +4971,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Preot Sebe Costin 1A, Chiajna",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -4986,7 +4986,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Godac",
                 "Address": "Strada Caporal Dumitru Pipercu 2, Chiajna",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5001,7 +5001,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Eroului 94, Chiajna",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5016,7 +5016,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Chitilei 136, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5031,7 +5031,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "\u0218oseaua Chitilei 142, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5046,7 +5046,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada George V\u00e2lsan 24, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5061,7 +5061,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "bl.103, parter, Strada Ceahl\u0103ul 20, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5076,7 +5076,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "August Chitilei - coffee, drinks, food",
                 "Address": "\u0218oseaua Chitilei 39A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5091,7 +5091,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "PALADIUM",
                 "Address": "Strada Pie\u021bei 67, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5106,7 +5106,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Fosta Central\u0103 Romtelecom, Strada P\u0103dureni 10, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5121,7 +5121,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Laminorului nr 49, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5136,7 +5136,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Cr\u00e2nga\u0219i 29, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5151,7 +5151,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Strada Sergent \u0218tefan Cri\u0219an 31, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5166,7 +5166,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Calea Cr\u00e2nga\u0219i Nr. 87, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5181,7 +5181,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Bulevardul Bucure\u0219tii Noi 50B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5196,7 +5196,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Angst",
                 "Address": "Calea Grivi\u021bei 238, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5211,7 +5211,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "Bulevardul Bucure\u0219tii Noi 111, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5226,7 +5226,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Splaiul Independen\u021bei 290, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5241,7 +5241,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Pajurei 7, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5256,7 +5256,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Grivi\u021bei 168, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5271,7 +5271,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Bulevardul Bucure\u0219tii Noi 27-29, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5286,7 +5286,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Aviator Traian Vasile, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5301,7 +5301,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Calea Cr\u00e2nga\u0219i 29, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5316,7 +5316,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Banatului 14, Chitila",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5331,7 +5331,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Piatra Morii 16A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5346,7 +5346,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Blocul 35A, Bulevardul Ion Mihalache 58, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5361,7 +5361,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "Strada Barbu V\u0103c\u0103rescu 120, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5376,7 +5376,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Strada G\u0103rii de Nord 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5391,7 +5391,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Gheorghe Duca 3-5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5406,7 +5406,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Ermil Pangrati 35, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5421,7 +5421,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Ion Mihalache 128, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5436,7 +5436,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Splaiul Independen\u021bei, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5451,7 +5451,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Ion Mihalache 92, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5466,7 +5466,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Pia\u021ba G\u0103rii de Nord 1-3, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5481,7 +5481,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Pajurei 24, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5496,7 +5496,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Alexandru Ioan Cuza 34, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5511,7 +5511,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Pia\u021ba Presei Libere 3-5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5526,7 +5526,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Dinicu Golescu 23-25, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5541,7 +5541,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Victoriei 155, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5556,7 +5556,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Calea Doroban\u021bi 239, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5571,7 +5571,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Berezka store & cuisine",
                 "Address": "Calea Doroban\u021bi 170, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5586,7 +5586,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Grigore Alexandrescu, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5601,7 +5601,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Calea Doroban\u021bi 102-110, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5616,7 +5616,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Nicolae G. Caramfil 6-8, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5631,7 +5631,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Pia\u021ba Amzei 10-22, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5646,7 +5646,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Colentina 6, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5661,7 +5661,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bloc 404-405, parter, \u0218oseaua Pantelimon 89, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5676,7 +5676,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Aghire\u0219 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5691,7 +5691,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua \u0218tefan cel Mare 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5706,7 +5706,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua \u0218tefan cel Mare 40, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5721,7 +5721,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Calea Doroban\u021bi 31-33, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5736,7 +5736,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Quick Deli",
                 "Address": "Strada Leonida nr. 1 Parter, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5751,7 +5751,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "LaDoiPasi",
                 "Address": "\u0218oseaua \u0218tefan cel Mare 54, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5766,7 +5766,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Issa Supermarket",
                 "Address": "Bloc, Bulevardul Lacul Tei 113, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5781,7 +5781,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada George Enescu, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5796,7 +5796,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada General Eremia Grigorescu 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5811,7 +5811,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua \u0218tefan cel Mare 226, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5826,7 +5826,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul General Gheorghe Magheru 9, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5841,7 +5841,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Vasile Lasc\u0103r 108-116, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5856,7 +5856,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Grigore Ionescu 94, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5871,7 +5871,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Calea Floreasca 246B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5886,7 +5886,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Jean Louis Calderon 57, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5901,7 +5901,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Calea Floreasca 246B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5916,7 +5916,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada C. A. Rosetti 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5931,7 +5931,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Lacul Tei 124, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5946,7 +5946,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua \u0218tefan cel Mare 238, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5961,7 +5961,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Barbu V\u0103c\u0103rescu 201, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5976,7 +5976,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Maria Rosetti 36-38, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -5991,7 +5991,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Nicolae B\u0103lcescu 27-33, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6006,7 +6006,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea Mo\u0219ilor 249, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6021,7 +6021,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Nicolae G. Caramfil 28-30, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6036,7 +6036,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Colentina 23B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6051,7 +6051,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "August Mosilor - coffee, drinks, food",
                 "Address": "Calea Mo\u0219ilor 225, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6066,7 +6066,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bulevardul Dacia 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6081,7 +6081,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Upground Residence, \u0218oseaua Fabrica de Glucoz\u0103 9B, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6096,7 +6096,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Traian 197, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6111,7 +6111,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "Strada Ziduri Mo\u0219i 23, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6126,7 +6126,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Strada Nicolae G. Caramfil Nr. 71-73, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6141,7 +6141,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "Strada M\u0103guricea 24, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6156,7 +6156,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Nicolae G. Caramfil 48, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6171,7 +6171,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Academiei 2, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6186,7 +6186,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Aron Cotru\u0219 57, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6201,7 +6201,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Regina Elisabeta 30, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6216,7 +6216,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "\u0218oseaua Gherase 66-70, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6231,7 +6231,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Pantelimon 114, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6246,7 +6246,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Vasile B\u0103cil\u0103 43A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6261,7 +6261,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Domino",
                 "Address": "\u0218oseaua Fundeni 292, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6276,7 +6276,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Dimitru Slujeru, Strada Dumitru Slugeru 18, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6291,7 +6291,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Allepoo Sweet",
                 "Address": "\u0218oseaua Andronache nr53A, \u0218oseaua Andronache nr. 53A, Bucharest",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6306,7 +6306,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Pantelimon 161, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6321,7 +6321,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Pantelimon 111A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6336,7 +6336,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Doinei 82, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6351,7 +6351,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Ropotului 43, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6366,7 +6366,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "\u0218oseaua Pantelimon 92, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6381,7 +6381,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "\u0218oseaua Colentina 426-426A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6396,7 +6396,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Kaufland",
                 "Address": "\u0218oseaua Pantelimon 244-246, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6411,7 +6411,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "\u0218oseaua Iancului 33, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6426,7 +6426,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Carrefour",
                 "Address": "Centrul Comercial Mega Mall, Bulevardul Pierre de Coubertin 3-5, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6441,7 +6441,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "\u0218oseaua Mihai Bravu 102A, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6456,7 +6456,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada M\u0103gura Vulturului 1, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6471,7 +6471,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Casa della Mozzarella",
                 "Address": "Strada M\u0103t\u0103sari 47, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6486,7 +6486,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Bulevardul Pache Protopopescu 92, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6501,7 +6501,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Budila 9, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6516,7 +6516,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Calea C\u0103l\u0103ra\u0219i 133, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6531,7 +6531,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Bucure\u0219ti Nord 14, Voluntari",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6546,7 +6546,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Buzia\u0219 077190, Voluntari",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6561,7 +6561,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Issa Supermarket",
                 "Address": "DN2, Afuma\u021bi",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6576,7 +6576,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "KFC",
                 "Address": "426-426A, \u0218oseaua Colentina, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6591,7 +6591,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Strada Sf\u00e2ntul Gheorghe 46, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6606,7 +6606,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Nicolae B\u0103lcescu 3, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6621,7 +6621,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Sf\u00e2ntul Gheorghe 46, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6636,7 +6636,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada Miori\u021bei 40A, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6651,7 +6651,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Sf\u00e2ntul Gheorghe 77, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6666,7 +6666,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Market pepi",
                 "Address": "Strada Sf\u00e2ntul Gheorghe 70, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6681,7 +6681,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Strada Tudor Vladimirescu 20, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6696,7 +6696,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Simplu Market",
                 "Address": "Strada Duzilor 10, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6711,7 +6711,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Bulevardul Victor Dumitrescu 91, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6726,7 +6726,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Penny",
                 "Address": "Strada Trifoiului, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6741,7 +6741,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bulevardul Victor Dumitrescu 84, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6756,7 +6756,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La Doi Pa\u0219i",
                 "Address": "Bulevardul Victor Dumitrescu 43-39, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6771,7 +6771,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Alexia Grand Standard",
                 "Address": "Aleea Timi\u0219, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6786,7 +6786,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Bd. Biruin\u021bei 72, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6801,7 +6801,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6816,7 +6816,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Lidl",
                 "Address": "\u0218oseaua Cernica 6, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6831,7 +6831,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Mega Image",
                 "Address": "Aleea Gradinii 10, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6846,7 +6846,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Rafturi metalice AZ",
                 "Address": "Bulevardul Biruin\u021bei 49, Pantelimon",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6861,7 +6861,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "La Kent",
                 "Address": "Drumul Dobroe\u0219ti-Fundeni, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6876,7 +6876,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Micul market",
                 "Address": "Strada Piersicului",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6891,7 +6891,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Yorem Market",
                 "Address": "Strada Doinei 73, Dobroe\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6906,7 +6906,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Profi",
                 "Address": "Strada M\u0103rului 8-10, Fundeni",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",
@@ -6921,7 +6921,7 @@ var json_Bucharest_datasetaux = {
             "properties": {
                 "Name": "Dragonul Gri",
                 "Address": "Strada Macului 14, Bucure\u0219ti",
-                "StoreType": "Datasetaux"
+                "StoreType": "Supermarket Enhanced"
             },
             "geometry": {
                 "type": "Point",

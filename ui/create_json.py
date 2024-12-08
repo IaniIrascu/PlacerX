@@ -3,7 +3,7 @@ import json
 import os
 
 # List of input directories to process
-input_dirs = ['../Bucharest', '../NewYork']  # Add your directories here
+input_dirs = ['../Bucharest', '../NewYork', '../Paris']  # Add your directories here
 
 # Base output directory
 base_output_dir = 'geojson_files'
