@@ -11,7 +11,7 @@ from scipy.spatial.distance import pdist, squareform
 df = pd.read_csv('datasetaux.csv')
 
 df2 = pd.read_csv('sectoare_cu_densitate.csv')
-df3 = pd.read_csv('bucuresti_principal.csv')
+df3 = pd.read_csv('bucuresti_convenience.csv')
 
 def within_radius(row, center, radius):
     store_point = (row['Latitude'], row['Longitude'])
@@ -82,7 +82,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
         kmeans = KMeans(n_clusters=best_k, random_state=0).fit(coordinates)
         cluster_center = kmeans.cluster_centers_[0]
         
-        same_stores_within_radius = df[(df['Name'].str.contains('Carrefour')) & df.apply(within_radius, center=cluster_center, radius=0, axis=1)]
+        same_stores_within_radius = df[(df['Name'].str.contains('La doi paşi')) & df.apply(within_radius, center=cluster_center, radius=0.5, axis=1)]
         # if is_on_water(cluster_center[0], cluster_center[1]) or not same_stores_within_radius.empty:
         #     continue
         if same_stores_within_radius.empty:
@@ -92,7 +92,7 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
             address = address_parts[0]
         
             df.add({
-                'Name': 'Carrefour',
+                'Name': 'La doi paşi',
                 'Address': address,
                 'Latitude': cluster_center[0],
                 'Longitude': cluster_center[1],
@@ -100,10 +100,10 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
                 'Density': 0,
                 'Trafic': 0
             })
-            midpoints.append(['Carrefour', address, cluster_center[0], cluster_center[1]])
+            midpoints.append(['La doi paşi', address, cluster_center[0], cluster_center[1]])
 
 midpoints_df = pd.DataFrame(midpoints, columns=['Name', 'Address', 'Latitude', 'Longitude'])
-midpoints_df.to_csv("midpoints3.csv", index=False)
+midpoints_df.to_csv("midpoints3_convenience.csv", index=False)
 
 df4 = pd.concat([df3, midpoints_df], ignore_index=True)
-df4.to_csv("supermarket_final.csv", index=False)
+df4.to_csv("convenience_final.csv", index=False)
