@@ -12,7 +12,6 @@ trafic = df['Trafic']
 
 lat_cart = df["Latitude"]
 lon_cart = df["Longitude"]
-
 df = pd.read_csv('department_initial.csv')
 lat_shop = df["Latitude"]
 lon_shop = df["Longitude"]
