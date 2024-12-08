@@ -6,9 +6,11 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from geopy.geocoders import GoogleV3
 from geopy.distance import geodesic
+from scipy.spatial.distance import pdist, squareform
+from water import is_on_water
 
+df = pd.read_csv('supermarket_enhanced.csv')
 
-df = pd.read_csv('supermarket_enhanced.csv').copy()
 df2 = pd.read_csv('district_and_location.csv')
 df3 = pd.read_csv('supermarket_initial.csv')
 
@@ -27,29 +29,29 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
 
     df['Income'] = df['Income'].replace({'\$': '', ',': ''}, regex=True).astype(float)
     stores_within_radius = df[df.apply(within_radius, center=center, radius=radius, axis=1)].copy()
-    stores_within_radius['Distance'] = stores_within_radius.apply(
-        lambda row: geodesic(center, (row['Latitude'], row['Longitude'])).km, axis=1
-    )
-    stores_within_radius['Income_norm'] = (stores_within_radius['Income'] - stores_within_radius['Income'].min()) / (stores_within_radius['Income'].max() - stores_within_radius['Income'].min())
-    stores_within_radius['Density_norm'] = (stores_within_radius['Density'] - stores_within_radius['Density'].min()) / (stores_within_radius['Density'].max() - stores_within_radius['Density'].min())
-    stores_within_radius['Distance_norm'] = (stores_within_radius['Distance'] - stores_within_radius['Distance'].min()) / (stores_within_radius['Distance'].max() - stores_within_radius['Distance'].min())
+    stores_within_radius['Income_norm'] = (df['Income'] - df['Income'].min()) / (df['Income'].max() - df['Income'].min())
+    stores_within_radius['Density_norm'] = (df['Density'] - df['Density'].min()) / (df['Density'].max() - df['Density'].min())
+    stores_within_radius['Traffic_norm'] = (df['Traffic'] - df['Traffic'].min()) / (df['Traffic'].max() - df['Traffic'].min())
 
+    coord = stores_within_radius[['Latitude', 'Longitude']].values
+    distance_matrix = squareform(pdist(coord, metric='euclidean'))
+    mean_distances = distance_matrix.mean(axis=1)
+    stores_within_radius['Distance_norm'] = (mean_distances - mean_distances.min()) / (mean_distances.max() - mean_distances.min())
     # Invert distance normalization
-    stores_within_radius['Distance_norm'] = 1 - stores_within_radius['Distance_norm']
 
     # Calculate weighted score
-    stores_within_radius['Weighted_Score'] = (
+    stores_within_radius['Weighted'] = (
         0.2 * stores_within_radius['Income_norm'] +
-        0.4 * stores_within_radius['Density_norm'] +
-        0.4 * stores_within_radius['Distance_norm']
+        0.3 * stores_within_radius['Density_norm'] +
+        0.3 * stores_within_radius['Distance_norm'] +
+        0.2 * stores_within_radius['Traffic_norm']
     )
 
     # Normalize Weighted_Score to sum to 1
-    stores_within_radius['Weighted'] = stores_within_radius['Weighted_Score'] / stores_within_radius['Weighted_Score'].sum()
+    stores_within_radius['Weighted'] = stores_within_radius['Weighted'] / stores_within_radius['Weighted'].sum()
 
     # Check for non-zero weights
     non_zero_weights = stores_within_radius[stores_within_radius['Weighted'] > 0]
-
     if non_zero_weights.empty:
         continue
 
@@ -82,6 +84,8 @@ for lat, long in zip(df2['Latitude'], df2['Longitude']):
         cluster_center = kmeans.cluster_centers_[0]
         
         same_stores_within_radius = df[(df['Name'].str.contains('CTown Supermarkets')) & df.apply(within_radius, center=cluster_center, radius=2, axis=1)]
+        if is_on_water(cluster_center[0], cluster_center[1]) or not same_stores_within_radius.empty:
+            continue
         if same_stores_within_radius.empty:
             location = geolocator.reverse((cluster_center[0], cluster_center[1]))
             address = location.address if location else 'Unknown Address'
