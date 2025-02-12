@@ -1,7 +1,7 @@
 
 # PlacerX
 
-PlacerX is a geospatial application designed to collect, process, and visualize location-based data for different cities (e.g. Bucharest, New York, Paris). It aggregates data from external services (such as Google Maps via Python scripts) and then renders the information on an interactive map using Leaflet along with several plugins for enhanced visualization.
+PlacerX is a geospatial application designed to collect, process, and visualize location-based data for different cities (e.g. Bucharest, New York, Paris). It aggregates data from external services (such as Google Maps via Python scripts), uses AI and Machine Learning to identify the best places for new locations for your business and then renders the information on an interactive map using Leaflet along with several plugins for enhanced visualization.
 
 **Functionalities**
 
